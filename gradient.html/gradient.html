@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style type="text/css">
+        #grad{
+            height:200px;
+            background-image:linear-gradient(blue,red);
+            
+        }
+        #gra{
+            height:200px;
+            background-image:linear-gradient(to right bottom,green,blue);
+        }
+        #gradia{
+            height:200px;
+            background-image:repeating-linear-gradient(to right bottom,green,red,blue)
+;        }
+.radi{
+    height:200px;
+    background-image:radial-gradient(circle, pink,yellow,green);
+}
+.conic{
+    height:200px;
+    background-image:conic-gradient(orange,black,green);
+}
+.news{
+    column-count:4;
+    column-fill:balance;
+    column-gap:30px;
+    column-rule-style:dashed;
+    column-rule-width:10px;
+    column-rule-color:red;  
+}
+.new{
+    column-count:6;
+    column-span:all;
+    background:lightgray;
+}
+.translate{
+    margin:auto;
+    height:100px;
+    width:100px;
+    background-color:red;
+    transform:translate(20px,20px);
+    transition-delay:2s;
+
+}
+#divine{
+    height:100px;
+    width:200px;
+    background-color:red;
+    transition:width 4s height 2s;
+    transition-timing-function:ease;
+}
+#divine:hover{
+    width:400px;
+    height:200px;
+}
+
+@keyframes test1{
+    0%{background-color:red; top:0px;left:0px;}
+    25%{background-color:blue;top:0px;left:0px;}
+    50%{background-color:green; top:200px;left:200px;}
+    75%{background-color:pink; top:200px;left:0px;}
+}
+.ani{
+    height:200px;
+    width:200px;
+    background:green;
+    animation-name:test1;
+    animation-duration:4s;
+    animation-delay:2s;
+    position:relative;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+}
+.page{
+    display:inline-block;
+}
+.page a{
+    text-decoration:none;
+    color:black;
+    padding:12px;
+    border:1px solid black;
+    border-radius:4px;
+    font-size:22px;
+    margin:2px;
+}
+a.active{
+    background-color:grey;
+    color:red;
+}
+.page a:hover{
+    background-color:lightgrey;
+}
+.page a:first-child{
+    border-radius:20px;
+}
+.page a:last-child{
+    border-radius:20px;
+}
+.center{
+    text-align:center;
+}
+img{
+    width:100%;
+    height:auto;
+}
+#mine{
+    background-color:blue;
+}
+.myclass{
+    background-color:green;
+}
+p{
+    background-color:blue!important;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Gradiant</h1>
+    <div id="grad"></div>
+    <br>
+    <h2>Gradiant2</h2>
+    <div id="gra"></div>
+    <h1>Repeat</h1>
+    <div id="gradia"></div>
+    <h1>radial</h1>
+    <div class="radi"></div>
+    <h2>Conic</h2>
+    <div class="conic"></div><br>
+    <br>
+    <h1>Columncount</h1>
+    <div class="news">It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", co</div>
+    <div class="new">It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", coIt has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", coIt has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", coIt has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", coIt has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", coIt has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", co</div><br><br>
+    <h1>Translate</h1>
+<div class="translate"></div>
+<br>
+<br>
+<h1>transition</h1>
+<div id="divine"></div>
+<br>
+<h1>Animation</h1>
+<div class="ani"></div>
+<h1>Pagination</h1>
+<div class="center">
+<div class="page">
+<a href="#">&laquo;</a>
+<a href="#" class="active">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<a href="#">6</a>
+<a href="#">7</a>
+<a href="#">8</a>
+<a href="#">9</a>
+<a href="#">10</a>
+<a href="#">&raquo;</a>
+</div>
+</div>
+<img src="pictures/banner.jpeg"><br>
+<br>
+<div id="mine"></div>
+<div class="myclass"></div>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Let</p>
+</body>
+</html>
